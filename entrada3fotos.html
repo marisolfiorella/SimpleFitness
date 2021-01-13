@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marisol Fiorella Sanchez, Juan Ignacio Burgos, Alejo Martinez Grau ">
+    <meta name="keywords" content="fitnees, dieta, rutinas, entrenamiento, nutricion">
+    <meta name="description" content="Blog con distintos entrenamientos, nutricion, descripcion de rutinas">
+    <!-- el siguiente link es para poner un icono en la pestaña de la pagina -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/22e9f862aa.js" crossorigin="anonymous"></script>
+    <title>Simple Fitness</title>
+</head>
+
+<body class="tipografia">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <div class="container">
+                <a class="navbar-brand " href="index.html"> <img src="img/icono.jpg" alt="Icono de Simple Fitness" id="iconoheader"> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link lead" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lead" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lead" data-toggle="modal" data-target="#modalSuscripcion">Suscripción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lead" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link lead" href="contactanos.html"> <b> Contactanos</b></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="text-danger my-3">Ejercicios para hacer en casa</h1>
+        <section class="row wy-5">
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria  my-3">
+                <img src="/img/3.1.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.2.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.3.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.4.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.5.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.6.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.7.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.8.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.9.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.10.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.11.jpg" alt="" class="w-100 caja">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 galeria my-3">
+                <img src="/img/3.12.jpg" alt="" class="w-100 caja">
+            </div>
+
+
+
+        </section>
+        <!-- HACER COMENTARIOS -->
+        <section>
+            <h3>Dejar un comentario</h3>
+            <p>Tu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados con *
+            </p>
+            </p>
+            <form>
+                <div class="form-group">
+                    <label>Nombre y apellido*</label>
+                    <input type="text" placeholder="Juan Perez" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Email*</label>
+                    <input type="email" placeholder="Juanperez@gmail.com" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Comentario*</label>
+                    <textarea placeholder="Ingrese su consulta" class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar</button>
+                <a href="index.html" class="btn btn-danger">Volver atras</a>
+            </form>
+
+        </section>
+        <!-- CONTENEDOR PRINCIPAL COMENTARIOS -->
+        <div class="comments-container">
+            <h1>Comentarios</h1>
+            <ul id="comments-list" class="comments-list">
+                <li>
+                    <div class="comment-main-level">
+                        <!-- AVATAR -->
+                        <div class="comment-avatar"><img src="/img/avatar1.jpg" alt="Imagen de usuario"></div>
+                        <!-- CONTENEDOR DEL COMENTARIO -->
+                        <div class="comment-box">
+                            <div class="comment-head">
+                                <h6 class="comment-name by-author">Agustin Ortiz </h6>
+                                <span>Hace 20 minutos</span>
+                                <i class="fas fa-reply"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="comment-content">
+                                Hola! leí tu articulo y me pareció de gran ayuda. Los usuarios hoy en día buscan muchísimos artículos en donde le ofrezcan soluciones tales como bajar de peso, rutinas, ejercicios, etc. Por lo tanto estos post no deben faltar en un blog de fitness. Saludos!
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RESPUESTA DE LOS COMENTARIOS -->
+                    <ul class="comment-list reply-list">
+                        <li>
+
+                            <!-- AVATAR -->
+                            <div class="comment-avatar"><img src="/img/avatar4.jpg" alt="Imagen de usuario"></div>
+                            <!-- CONTENEDOR DEL COMENTARIO -->
+                            <div class="comment-box ">
+                                <div class="comment-head">
+                                    <h6 class="comment-name ">Estella Ridolfo</h6>
+                                    <span>Hace 15 minutos</span>
+                                    <i class="fas fa-reply"></i>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="comment-content">
+                                    Hola. Lo primero, te damos las gracias por leernos. Nos alegra que te haya gustado nuestro post y que lo encuentres de utilidad. Por supuesto, estamos de acuerdo con tu opinión. Los temas comentados nunca deberían faltar en el blog de un gimnasio. ¡Saludos!
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                    <ul class="comment-list reply-list">
+                        <li>
+
+                            <!-- AVATAR -->
+                            <div class="comment-avatar"><img src="/img/avatar5.jpg" alt="Imagen de usuario"></div>
+                            <!-- CONTENEDOR DEL COMENTARIO -->
+                            <div class="comment-box ">
+                                <div class="comment-head">
+                                    <h6 class="comment-name ">Martin Acosta</h6>
+                                    <span>Hace 15 minutos</span>
+                                    <i class="fas fa-reply"></i>
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="comment-content">
+                                    ¡Qué bien veros por nuestro blog! Nos alegra saber que os han gustado nuestros consejos. Como bien explicáis, el blog debe ser un canal en el que ofrecer a clientes y público en general solución a dudas sobre, entrenamientos, nutrición y temas más destacados
+                                    del gimnasio y el mundo fitness. Estamos en contacto. ¡Saludos!
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="comment-main-level">
+                        <!-- AVATAR -->
+                        <div class="comment-avatar"><img src="/img/avatar3.jpg" alt="Imagen de usuario"></div>
+                        <!-- CONTENEDOR DEL COMENTARIO -->
+                        <div class="comment-box">
+                            <div class="comment-head">
+                                <h6 class="comment-name">Hector Arturo</h6>
+                                <span>Hace 10 minutos</span>
+                                <i class="fas fa-reply"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="comment-content">
+                                Esta muy chulo el articulo y como opinión creo que se ven publicar posts de entrenamientos y consejos para bajara peso que son muy demandados.
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="comment-main-level">
+                        <!-- AVATAR -->
+                        <div class="comment-avatar"><img src="/img/avatar2.jpg" alt="Imagen de usuario"></div>
+                        <!-- CONTENEDOR DEL COMENTARIO -->
+                        <div class="comment-box">
+                            <div class="comment-head">
+                                <h6 class="comment-name ">Lorena Rojas</h6>
+                                <span>Hace 5 minutos</span>
+                                <i class="fas fa-reply"></i>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="comment-content">
+                                Me encanta este blog, los articulos muy interesantes, las rutinas para mujeres muy bien explicadas. Deberian subir videos de ejemplos de los ejercicios hay pocos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="text-center">
+            <a href="login.html" class="btn btn-danger px-3 text-center my-5">Hacer comentario</a>
+        </div>
+    </main>
+    <footer class="bg-danger text-light py-4">
+        <section class="container text-center">
+
+            <article class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img src="img/icono.jpg" alt="icono del blog" class="w-50 mt-2" id="iconofooter">
+                </div>
+                <div class="col-sm-12 col-md-4 mb-2">
+                    <h3 class="mb-2 mt-2">Encontranos en:</h3>
+                    <a href="#" class="text-light mr-2"><i class="fab fa-facebook-square fa-1x ">&nbsp;  Simple Fitness</i
+                        ></a>
+                    <br>
+                    <a href="https://twitter.com/" target="_blank" class="text-light mr-2"><i class="fab fa-twitter-square fa-1x">&nbsp;  SimpleFitness</i
+                        ></a><br>
+                    <a href="#" class="text-light mr-2"><i class="fab fa-instagram-square fa-1x">&nbsp;  S.P</i
+                        ></a>
+
+                </div>
+                <div class="col-sm-12 col-md-4 ">
+                    <h3 class="text-light mb-3 mt-2">Unite: </h3>
+                    <img src="img/badge-apple-store.svg" alt="logo apple store" class="mb-2 w-50" />
+                    <img src="img/google-play-badge-bb.svg" alt="logo play store" class="w-50" />
+                </div>
+            </article>
+            <p class="lead text-center mt-3">&copy; Copyright 2020 SimpleFitness. Todos los derechos son reservados</p>
+        </section>
+    </footer>
+    <!-- Ventana Modal de la Suscripción -->
+    <div class="modal fade" id="modalSuscripcion" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="modalSuscripcionLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header  -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSuscripcionLabel">Suscripción</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Salir">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <!-- Modal Body  -->
+                <form class="bg-light p-4">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Nombre:</label>
+                            <input type="text" placeholder="Juan José" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Apellido:</label>
+                            <input type="text" placeholder="Perez" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" placeholder="juanjoseperez@gmail.com" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Comentario:</label>
+                            <textarea placeholder="Ingrese su comentario:" class="form-control" rows="4"></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" checked>
+                            <label> Deseo recibir notificaciones por mail.</label>
+                        </div>
+                    </div>
+                    <!-- Modal Footer  -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">
+                        Cerrar
+                        </button>
+                        <button type="submit" class="btn btn-danger">
+                    Suscribir
+                    </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+</body>
+
+</html>
